@@ -14,9 +14,9 @@ import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
 import logo from "../assets/logo.svg";
 import menu from "../assets/menu.svg";
-import people1 from "../assets/people01.png";
-import people2 from "../assets/people02.png";
-import people3 from "../assets/people03.png";
+import people01 from "../assets/people01.png";
+import people02 from "../assets/people02.png";
+import people03 from "../assets/people03.png";
 import quotes from "../assets/quotes.svg";
 import robot from "../assets/robot.png";
 import send from "../assets/Send.svg";
@@ -24,7 +24,7 @@ import shield from "../assets/Shield.svg";
 import star from "../assets/star.svg";
 import twitter from "../assets/twitter.svg";
 
-const imges = {
+export {
   airbnb,
   apple,
   arrowUp,
@@ -41,9 +41,9 @@ const imges = {
   linkedin,
   logo,
   menu,
-  people1,
-  people2,
-  people3,
+  people01,
+  people02,
+  people03,
   quotes,
   robot,
   send,
@@ -51,5 +51,3 @@ const imges = {
   star,
   twitter,
 };
-
-export default imges;

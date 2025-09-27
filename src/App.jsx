@@ -1,12 +1,17 @@
 import React from "react";
-import imges from "./assets/Images";
 import { Navbar } from "./Components/index";
 import styles from "./Style";
 
 export default function App() {
   return (
     <>
-      <div></div>
+      <div className="bg-primary w-full overflow-hidden text-white">
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Navbar />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
