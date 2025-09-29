@@ -21,7 +21,7 @@ import quotes from "../assets/quotes.svg";
 import robot from "../assets/robot.png";
 import send from "../assets/Send.svg";
 import shield from "../assets/Shield.svg";
-import star from "../assets/star.svg";
+import star from "../assets/Star.svg";
 import twitter from "../assets/twitter.svg";
 
 export {
